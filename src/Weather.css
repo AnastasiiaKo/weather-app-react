@@ -1,0 +1,108 @@
+.Weather body {
+    font-family: "Josefin Sans", sans-serif;
+    
+    background: rgb(221, 221, 221);
+  }
+  
+  .Weather .box {
+    background-color: #55688a;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  .Weather h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+  
+  .Weather #day-time-today {
+    text-transform: uppercase;
+  }
+  
+  .Weather .form-control {
+    width: 140%;
+  }
+  
+  .Weather .search-window {
+    padding: 0;
+    width: 20%;
+  }
+  
+  .Weather .search-button {
+    position: relative;
+    left: 47px;
+    padding: 0;
+  }
+
+  .Weather .current-button {
+    position: relative;
+    left: 36px;
+    padding: 0;
+  }
+  
+  .Weather .box-today {
+    padding: 0 0 0 10px;
+  }
+  
+  .Weather .temp-today {
+    font-size: 50px;
+    line-height: 27px;
+    margin-top: 22px;
+  }
+  
+  .Weather .box-today .active {
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+  }
+  .Weather .temperature {
+    margin-right: 0;
+    top: -29px;
+  }
+  
+.Weather .units {
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    top: -25px;
+    left: 5px;
+}
+  
+  .Weather .link {
+    text-decoration: none;
+  }
+  
+  .Weather .link:hover {
+    text-decoration: underline;
+  }
+  
+  .Weather .weather-forecast-temperarure-min {
+    opacity: 0.6;
+  }
+  
+  .Weather .active {
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  .Weather #search-form {
+    margin-top: 0;
+    max-width: 105%;
+  }
+  
+  .Weather #cloudy {
+    text-transform: capitalize;
+  }
+  
+  .Weather #fahrenheit-link {
+    text-decoration: none;
+  }
+  
+  .Weather #fahrenheit-link:hover {
+    text-decoration: underline;
+  }
+  

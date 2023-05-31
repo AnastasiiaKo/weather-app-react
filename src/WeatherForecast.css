@@ -1,0 +1,13 @@
+.WeatherForecast {
+    border-radius: 10px;
+    background: #7b89a4;
+    padding: 5px 15px;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.WeatherForecast-temperature-min{
+    opacity: 0.6;
+}
+
